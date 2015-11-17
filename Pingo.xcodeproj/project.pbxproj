@@ -14,10 +14,13 @@
 		2974A30B1BFAD34C00B7D829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2974A3091BFAD34C00B7D829 /* LaunchScreen.storyboard */; };
 		2974A3161BFAD34C00B7D829 /* PingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3151BFAD34C00B7D829 /* PingoTests.m */; };
 		2974A3211BFAD34C00B7D829 /* PingoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3201BFAD34C00B7D829 /* PingoUITests.m */; };
-		2974A3301BFAD3DF00B7D829 /* DetailedMatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A32F1BFAD3DF00B7D829 /* DetailedMatchController.m */; settings = {ASSET_TAGS = (); }; };
-		2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3321BFAD3F800B7D829 /* MatchesController.m */; settings = {ASSET_TAGS = (); }; };
-		2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3351BFAD41600B7D829 /* MatchesViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		2974A3391BFAD5A600B7D829 /* DetailedMatchInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */; settings = {ASSET_TAGS = (); }; };
+		2974A3301BFAD3DF00B7D829 /* DetailedMatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A32F1BFAD3DF00B7D829 /* DetailedMatchController.m */; };
+		2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3321BFAD3F800B7D829 /* MatchesController.m */; };
+		2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3351BFAD41600B7D829 /* MatchesViewCell.m */; };
+		2974A3391BFAD5A600B7D829 /* DetailedMatchInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */; };
+		2B0571DF1BFBB9DD00B983B4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571DE1BFBB9DD00B983B4 /* Game.m */; };
+		2B0571E21BFBBA7B00B983B4 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571E11BFBBA7B00B983B4 /* Match.m */; };
+		2B0571E51BFBBAD700B983B4 /* ScoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,12 @@
 		2974A3351BFAD41600B7D829 /* MatchesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchesViewCell.m; sourceTree = "<group>"; };
 		2974A3371BFAD5A600B7D829 /* DetailedMatchInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedMatchInfoCell.h; sourceTree = "<group>"; };
 		2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedMatchInfoCell.m; sourceTree = "<group>"; };
+		2B0571DD1BFBB9DD00B983B4 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2B0571DE1BFBB9DD00B983B4 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		2B0571E01BFBBA7A00B983B4 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		2B0571E11BFBBA7B00B983B4 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		2B0571E31BFBBAD700B983B4 /* ScoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreInfo.h; sourceTree = "<group>"; };
+		2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +130,12 @@
 				2974A2FE1BFAD34C00B7D829 /* AppDelegate.h */,
 				2974A2FF1BFAD34C00B7D829 /* AppDelegate.m */,
 				2974A3041BFAD34C00B7D829 /* Main.storyboard */,
+				2B0571DD1BFBB9DD00B983B4 /* Game.h */,
+				2B0571DE1BFBB9DD00B983B4 /* Game.m */,
+				2B0571E01BFBBA7A00B983B4 /* Match.h */,
+				2B0571E31BFBBAD700B983B4 /* ScoreInfo.h */,
+				2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */,
+				2B0571E11BFBBA7B00B983B4 /* Match.m */,
 				2974A3071BFAD34C00B7D829 /* Assets.xcassets */,
 				2974A3091BFAD34C00B7D829 /* LaunchScreen.storyboard */,
 				2974A30C1BFAD34C00B7D829 /* Info.plist */,
@@ -292,8 +307,11 @@
 				2974A3391BFAD5A600B7D829 /* DetailedMatchInfoCell.m in Sources */,
 				2974A3001BFAD34C00B7D829 /* AppDelegate.m in Sources */,
 				2974A2FD1BFAD34C00B7D829 /* main.m in Sources */,
+				2B0571E51BFBBAD700B983B4 /* ScoreInfo.m in Sources */,
 				2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */,
+				2B0571DF1BFBB9DD00B983B4 /* Game.m in Sources */,
 				2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */,
+				2B0571E21BFBBA7B00B983B4 /* Match.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +535,7 @@
 				2974A3271BFAD34C00B7D829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2974A3281BFAD34C00B7D829 /* Build configuration list for PBXNativeTarget "PingoTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +544,7 @@
 				2974A32A1BFAD34C00B7D829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2974A32B1BFAD34C00B7D829 /* Build configuration list for PBXNativeTarget "PingoUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +553,7 @@
 				2974A32D1BFAD34C00B7D829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
