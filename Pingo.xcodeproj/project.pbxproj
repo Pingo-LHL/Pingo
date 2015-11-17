@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		2974A2FD1BFAD34C00B7D829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2FC1BFAD34C00B7D829 /* main.m */; };
 		2974A3001BFAD34C00B7D829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A2FF1BFAD34C00B7D829 /* AppDelegate.m */; };
-		2974A3031BFAD34C00B7D829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3021BFAD34C00B7D829 /* ViewController.m */; };
 		2974A3061BFAD34C00B7D829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2974A3041BFAD34C00B7D829 /* Main.storyboard */; };
 		2974A3081BFAD34C00B7D829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2974A3071BFAD34C00B7D829 /* Assets.xcassets */; };
 		2974A30B1BFAD34C00B7D829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2974A3091BFAD34C00B7D829 /* LaunchScreen.storyboard */; };
 		2974A3161BFAD34C00B7D829 /* PingoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3151BFAD34C00B7D829 /* PingoTests.m */; };
 		2974A3211BFAD34C00B7D829 /* PingoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3201BFAD34C00B7D829 /* PingoUITests.m */; };
+		2974A3301BFAD3DF00B7D829 /* DetailedMatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A32F1BFAD3DF00B7D829 /* DetailedMatchController.m */; settings = {ASSET_TAGS = (); }; };
+		2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3321BFAD3F800B7D829 /* MatchesController.m */; settings = {ASSET_TAGS = (); }; };
+		2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3351BFAD41600B7D829 /* MatchesViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		2974A3391BFAD5A600B7D829 /* DetailedMatchInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		2974A2FC1BFAD34C00B7D829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2974A2FE1BFAD34C00B7D829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2974A2FF1BFAD34C00B7D829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2974A3011BFAD34C00B7D829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2974A3021BFAD34C00B7D829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2974A3051BFAD34C00B7D829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2974A3071BFAD34C00B7D829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2974A30A1BFAD34C00B7D829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		2974A31C1BFAD34C00B7D829 /* PingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2974A3201BFAD34C00B7D829 /* PingoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingoUITests.m; sourceTree = "<group>"; };
 		2974A3221BFAD34C00B7D829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2974A32E1BFAD3DF00B7D829 /* DetailedMatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedMatchController.h; sourceTree = "<group>"; };
+		2974A32F1BFAD3DF00B7D829 /* DetailedMatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedMatchController.m; sourceTree = "<group>"; };
+		2974A3311BFAD3F800B7D829 /* MatchesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchesController.h; sourceTree = "<group>"; };
+		2974A3321BFAD3F800B7D829 /* MatchesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchesController.m; sourceTree = "<group>"; };
+		2974A3341BFAD41600B7D829 /* MatchesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchesViewCell.h; sourceTree = "<group>"; };
+		2974A3351BFAD41600B7D829 /* MatchesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchesViewCell.m; sourceTree = "<group>"; };
+		2974A3371BFAD5A600B7D829 /* DetailedMatchInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedMatchInfoCell.h; sourceTree = "<group>"; };
+		2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedMatchInfoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,14 @@
 		2974A2EF1BFAD34C00B7D829 = {
 			isa = PBXGroup;
 			children = (
+				2974A3371BFAD5A600B7D829 /* DetailedMatchInfoCell.h */,
+				2974A3381BFAD5A600B7D829 /* DetailedMatchInfoCell.m */,
+				2974A3341BFAD41600B7D829 /* MatchesViewCell.h */,
+				2974A3351BFAD41600B7D829 /* MatchesViewCell.m */,
+				2974A32E1BFAD3DF00B7D829 /* DetailedMatchController.h */,
+				2974A32F1BFAD3DF00B7D829 /* DetailedMatchController.m */,
+				2974A3311BFAD3F800B7D829 /* MatchesController.h */,
+				2974A3321BFAD3F800B7D829 /* MatchesController.m */,
 				2974A2FA1BFAD34C00B7D829 /* Pingo */,
 				2974A3141BFAD34C00B7D829 /* PingoTests */,
 				2974A31F1BFAD34C00B7D829 /* PingoUITests */,
@@ -103,8 +120,6 @@
 			children = (
 				2974A2FE1BFAD34C00B7D829 /* AppDelegate.h */,
 				2974A2FF1BFAD34C00B7D829 /* AppDelegate.m */,
-				2974A3011BFAD34C00B7D829 /* ViewController.h */,
-				2974A3021BFAD34C00B7D829 /* ViewController.m */,
 				2974A3041BFAD34C00B7D829 /* Main.storyboard */,
 				2974A3071BFAD34C00B7D829 /* Assets.xcassets */,
 				2974A3091BFAD34C00B7D829 /* LaunchScreen.storyboard */,
@@ -273,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2974A3031BFAD34C00B7D829 /* ViewController.m in Sources */,
+				2974A3301BFAD3DF00B7D829 /* DetailedMatchController.m in Sources */,
+				2974A3391BFAD5A600B7D829 /* DetailedMatchInfoCell.m in Sources */,
 				2974A3001BFAD34C00B7D829 /* AppDelegate.m in Sources */,
 				2974A2FD1BFAD34C00B7D829 /* main.m in Sources */,
+				2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */,
+				2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

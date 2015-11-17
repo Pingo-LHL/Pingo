@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailedMatchController.h
 //  Pingo
 //
 //  Created by Samer Rohani on 2015-11-16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DetailedMatchController : UIViewController
 
 @end
-
