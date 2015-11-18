@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "MatchesViewCell.h"
 
+@class DetailedMatchController;
+
 @interface MatchesController : UITableViewController
+
+@property (strong, nonatomic) DetailedMatchController *detailMatchController;
 
 @end

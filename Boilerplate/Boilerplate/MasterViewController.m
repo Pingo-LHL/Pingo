@@ -1,20 +1,26 @@
 //
-//  MatchesController.m
-//  Pingo
+//  MasterViewController.m
+//  Boilerplate
 //
-//  Created by Samer Rohani on 2015-11-16.
-//  Copyright © 2015 Samer Rohani. All rights reserved.
+//  Created by Kelo Akalamudo on 11/17/15.
+//  Copyright © 2015 Kelo. All rights reserved.
 //
 
-#import "MatchesController.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
-@implementation MatchesController
+@interface MasterViewController ()
+
+@property NSMutableArray *objects;
+@end
+
+@implementation MasterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
-    
+
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
@@ -64,7 +70,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
+
     NSDate *object = self.objects[indexPath.row];
     cell.textLabel.text = [object description];
     return cell;

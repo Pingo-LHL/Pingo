@@ -21,6 +21,9 @@
 		2B0571DF1BFBB9DD00B983B4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571DE1BFBB9DD00B983B4 /* Game.m */; };
 		2B0571E21BFBBA7B00B983B4 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571E11BFBBA7B00B983B4 /* Match.m */; };
 		2B0571E51BFBBAD700B983B4 /* ScoreInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */; };
+		2BCE22281BFBD93D008CA790 /* TestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE22271BFBD93D008CA790 /* TestInfo.m */; };
+		2BCE222B1BFBEC2E008CA790 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCE222A1BFBEC2E008CA790 /* LogIn.storyboard */; };
+		2BCE222E1BFBECFB008CA790 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE222D1BFBECFB008CA790 /* LogInViewController.m */; };
 		CB308F1BB88387A9E08EA7F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6040CDFDDB43A76B7B5F24 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +74,11 @@
 		2B0571E11BFBBA7B00B983B4 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
 		2B0571E31BFBBAD700B983B4 /* ScoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreInfo.h; sourceTree = "<group>"; };
 		2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreInfo.m; sourceTree = "<group>"; };
+		2BCE22261BFBD93D008CA790 /* TestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestInfo.h; sourceTree = "<group>"; };
+		2BCE22271BFBD93D008CA790 /* TestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestInfo.m; sourceTree = "<group>"; };
+		2BCE222A1BFBEC2E008CA790 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		2BCE222C1BFBECFB008CA790 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		2BCE222D1BFBECFB008CA790 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		2D6040CDFDDB43A76B7B5F24 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A08C5D461FF34C8ED5624CD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,13 +144,11 @@
 				2974A3321BFAD3F800B7D829 /* MatchesController.m */,
 				2974A2FE1BFAD34C00B7D829 /* AppDelegate.h */,
 				2974A2FF1BFAD34C00B7D829 /* AppDelegate.m */,
+				2BCE222C1BFBECFB008CA790 /* LogInViewController.h */,
+				2BCE222D1BFBECFB008CA790 /* LogInViewController.m */,
 				2974A3041BFAD34C00B7D829 /* Main.storyboard */,
-				2B0571DD1BFBB9DD00B983B4 /* Game.h */,
-				2B0571DE1BFBB9DD00B983B4 /* Game.m */,
-				2B0571E01BFBBA7A00B983B4 /* Match.h */,
-				2B0571E31BFBBAD700B983B4 /* ScoreInfo.h */,
-				2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */,
-				2B0571E11BFBBA7B00B983B4 /* Match.m */,
+				2BCE222A1BFBEC2E008CA790 /* LogIn.storyboard */,
+				2BCE22291BFBEBA8008CA790 /* Model */,
 				2974A3071BFAD34C00B7D829 /* Assets.xcassets */,
 				2974A3091BFAD34C00B7D829 /* LaunchScreen.storyboard */,
 				2974A30C1BFAD34C00B7D829 /* Info.plist */,
@@ -175,6 +181,21 @@
 				2974A3221BFAD34C00B7D829 /* Info.plist */,
 			);
 			path = PingoUITests;
+			sourceTree = "<group>";
+		};
+		2BCE22291BFBEBA8008CA790 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B0571DD1BFBB9DD00B983B4 /* Game.h */,
+				2B0571DE1BFBB9DD00B983B4 /* Game.m */,
+				2B0571E01BFBBA7A00B983B4 /* Match.h */,
+				2B0571E31BFBBAD700B983B4 /* ScoreInfo.h */,
+				2BCE22261BFBD93D008CA790 /* TestInfo.h */,
+				2BCE22271BFBD93D008CA790 /* TestInfo.m */,
+				2B0571E41BFBBAD700B983B4 /* ScoreInfo.m */,
+				2B0571E11BFBBA7B00B983B4 /* Match.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		6EC145EBF7200ED776D50D2D /* Pods */ = {
@@ -303,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BCE222B1BFBEC2E008CA790 /* LogIn.storyboard in Resources */,
 				2974A30B1BFAD34C00B7D829 /* LaunchScreen.storyboard in Resources */,
 				2974A3081BFAD34C00B7D829 /* Assets.xcassets in Resources */,
 				2974A3061BFAD34C00B7D829 /* Main.storyboard in Resources */,
@@ -385,6 +407,8 @@
 				2B0571E51BFBBAD700B983B4 /* ScoreInfo.m in Sources */,
 				2974A3331BFAD3F800B7D829 /* MatchesController.m in Sources */,
 				2B0571DF1BFBB9DD00B983B4 /* Game.m in Sources */,
+				2BCE222E1BFBECFB008CA790 /* LogInViewController.m in Sources */,
+				2BCE22281BFBD93D008CA790 /* TestInfo.m in Sources */,
 				2974A3361BFAD41600B7D829 /* MatchesViewCell.m in Sources */,
 				2B0571E21BFBBA7B00B983B4 /* Match.m in Sources */,
 			);
